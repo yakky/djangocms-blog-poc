@@ -1,9 +1,10 @@
-{% load cms_tags menu_tags sekizai_tags %}
+{% load cms_tags menu_tags meta sekizai_tags %}
 <!doctype html>
 <html>
-    <head>
+    <head {% meta_namespaces %}>
         <title>{% block title %}This is my new project home page{% endblock title %}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
+        {% include "meta/meta.html" %}
         <style type="text/css">
             .nav {
                 padding-left: 0;
