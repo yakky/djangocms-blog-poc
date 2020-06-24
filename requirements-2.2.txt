@@ -8,7 +8,7 @@ Django==2.2.12
 django-appconf==1.0.4
 django-appdata==0.3.0
 django-classy-tags==1.0.0
-django-cms==3.7.2
+django-cms==3.7.3
 django-filer==1.7.1
 django-formtools==2.2
 django-haystack==3.0b2
@@ -29,7 +29,7 @@ django-treebeard==4.3.1
 djangocms-admin-style==1.5.0
 djangocms-apphook-setup==0.4.1
 djangocms-attributes-field==1.2.0
-djangocms-blog==1.1.0
+djangocms-blog==1.1.1
 djangocms-bootstrap4==1.6.0
 djangocms-file==2.4.0
 djangocms-googlemap==1.4.0
@@ -39,7 +39,7 @@ djangocms-link==2.6.1
 djangocms-picture==2.4.0
 djangocms-snippet==2.3.0
 djangocms-style==2.3.0
-djangocms-text-ckeditor==3.9.0
+djangocms-text-ckeditor==3.9.1
 djangocms-video==2.3.0
 easy-thumbnails==2.7
 html5lib==1.0.1
