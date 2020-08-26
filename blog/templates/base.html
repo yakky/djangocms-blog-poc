@@ -1,10 +1,13 @@
-{% load cms_tags menu_tags meta sekizai_tags %}
+{% load cms_tags menu_tags meta page_meta_tags sekizai_tags %}
+{% page_meta request.current_page as page_meta %}
 <!doctype html>
 <html>
     <head {% meta_namespaces %}>
         <title>{% block title %}This is my new project home page{% endblock title %}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
-        {% include "meta/meta.html" %}
+        {% block meta %}
+        {% include 'djangocms_page_meta/meta.html' with meta=page_meta %}
+        {% endblock meta %}
         <style type="text/css">
             .nav {
                 padding-left: 0;
